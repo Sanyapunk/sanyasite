@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #696969
+}
+.headImg{
+	width: 100%;
+	height: 100%;
+	background-image: url(https://www.igadgetsworld.com/wp-content/uploads/2015/11/programmer-coding-scripts-automation-hacking.jpg);
+}
+.headLine{
+	position: relative;
+	background-color: #808080;
+	width: 100%;
+	opacity: 0;
+	height: px;
+	margin: 35px 0;
+	float: left;
+}
+.hamburger{
+	display: none;
+	float: right;
+	width: 5%;
+}
+.Headhesive{
+	background-color: rd;
+	position: fixed;
+	opacity: 1;
+	width: 100%;
+}
+.headhesive--unstick{
+	transform: translateY(0);
+}
+.logoDiv{
+	float: left;
+	height:50px;
+	text-align: right;
+	width: 30%;
+	background-color: rd;
+}
+.logo{
+	font-size: 150%;
+	margin: 10px 0px;
+	color: #FFFFFF;
+}
+.button{
+	float: left;
+	text-align: center;
+	padding: 10px 0;
+	width: 70%;
+	background-color: gren;
+}
+.headButton{
+	background-color: #696969;
+	font-size: 150%;
+	color: #FFFFFF;
+	margin: 10% 30px;
+	padding: 5px 10px;
+}
+.headButton:hover{
+	background-color: #FFFFFF;
+	color: #696969;
+	border: 0px 2px 2px 0px;
+	border-color: #696969;
+	transition: 0.5s;
+}
+.contend{
+	text-align: center;
+	width: 100%;
+	background-color: rd;
+}
+.centreMenu{
+	background-color: #808080;
+	width: 100%;
+	margin: 25px 0px;
+	float: left;
+}
+.mainButton{
+	font-size: 150%;
+	color: #FFFFFF;
+	margin: 10px 5px;
+	background-color: #696969;
+	padding: 5px 5px;
+}
+.mainButton:hover{
+	background-color: #FFFFFF;
+	color: #696969;
+	border: 0px 2px 2px 0px;
+	border-color: #696969;
+	transition: 0.5s;
+}
+.centreContend{
+	background-color: rd;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.mainImg{
+	width: 100%;
+}
+.textCentre{
+	font-size: 80%;
+}
+.futer{
+	float: left;
+	width: 100%;
+	background-image: url(https://image.freepik.com/free-vector/no-translate-detected_1048-1454.jpg);
+}
+.leftBox{
+	text-align: center;
+	float: left;
+	width: 50%;
+	background-color: ;
+}
+.rightBox{
+	color: #FFFFFF;
+	text-align: center;
+	float: left;
+	width: 50%;
+	background-color: gren;
+}
+.downText{
+	color: #FFFFFF;
+	font-size: 75%;
+	padding: 10px 10px;
+	margin: 10px 10px;
+	text-align: center;
+	margin: 0% 25%;
+	width: 50%;
+	background-color: rd;
+}
+@media screen and (max-width: 700px){
+.headImg{
+	text-align: center;
+	height: 75%;
+	background-image: url(img/back.jpg);
+}
+.headLine{
+	background-color: red;
+	width: 100%;
+	height: 0;
+	margin: 5px 0;
+	float: left;
+}
+.logoDiv{
+	float: left;
+	height:50px;
+	text-align: right;
+	width: 50%;
+	background-color: rd;
+}
+.logo{
+	font-size: 150%;
+	margin: 10px 0px;
+	color: #FFFFFF;
+}
+.button{
+	display: block;
+	text-align: left;
+	margin: 0px 0px;
+	padding: 5px 0;
+	width: 70%;
+	height: 400px;
+	opacity: 0.8;
+	background-color: #FFFFFF;
+	transform: translateX(0%);
+}
+.buttonopen{
+	display: block;
+	text-align: left;
+	margin: 0px 0px;
+	padding: 5px 0;
+	width: 70%;
+	height: 400px;
+	opacity: 0.8;
+	background-color: #FFFFFF;
+	transform: translateX(-0%);	
+}
+.hamburger{
+	display: block;
+	float: right;
+	width: 15%;
+}
+.headButton{
+	background-color: #696969;
+	font-size: 150%;
+	width: 75%;
+	color: #FFFFFF;
+	margin: 0px 5px;
+	padding: 0px 5px;
+}
+.headButton:hover{
+	background-color: #FFFFFF;
+	color: #696969;
+	border: 0px 2px 2px 0px;
+	border-color: #696969;
+	transition: 0.5s;
+}
+.contend{
+	text-align: center;
+	width: 100%;
+	background-color: rd;
+}
+.centreMenu{
+	background-color: #808080;
+	margin: 0px 0px;
+	width: 100%;
+	float: left;
+}
+.mainButton{
+	font-size: 150%;
+	color: #FFFFFF;
+	margin: 10px 5px;
+	background-color: #696969;
+	padding: 5px 5px;
+}
+.mainButton:hover{
+	background-color: #FFFFFF;
+	color: #696969;
+	border: 0px 2px 2px 0px;
+	border-color: #696969;
+	transition: 0.5s;
+}
+.centreContend{
+	background-color: rd;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.mainImg{
+	width: 100%;
+}
+.futer{
+	float: left;
+	width: 100%;
+	background-image: url(https://image.freepik.com/free-vector/no-translate-detected_1048-1454.jpg);
+}
+.leftBox{
+	text-align: center;
+	float: left;
+	width: 50%;
+	background-color: ;
+}
+.rightBox{
+	color: #FFFFFF;
+	text-align: center;
+	float: left;
+	width: 50%;
+	background-color: gren;
+}
+.downText{
+	color: #FFFFFF;
+	padding: 5px 5px;
+	margin: 5px 5px;
+	text-align: center;
+	margin: 0% 0%;
+	width: 100%;
+	background-color: rd;
+}
+}
